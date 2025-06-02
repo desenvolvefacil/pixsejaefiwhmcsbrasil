@@ -34,7 +34,8 @@ Caso ainda não tenha seu certificado, basta seguir o passo a passo do link a se
 
 <p><h2>Enviar QrCode por Email</h2></p>
 <p>Basta colcar o comando abaixo nos modelos de email para que o QrCode Pix seja enviado<br />
-{if $invoice_payment_method=="Pix Seja Efi"}{$invoice_payment_link}{/if}</p>
+</p>
+<code>{if $invoice_payment_method=="Pix Seja Efi"}{$invoice_payment_link}{/if}</code>
 
 <p/>
 <h3>Sugestões, Dúvidas?</h3>
