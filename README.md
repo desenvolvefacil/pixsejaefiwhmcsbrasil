@@ -3,6 +3,12 @@
 <p><h2>Criação da Conta</h2></p>
 <p><a href="https://sejaefi.com.br/parceiro/desenvolve-facil/">Abrir Conta no SejaEfi</a></p>
 
+<p><h2>Certificado para utilização da API PIX</h2></p>
+<p>Todas as requisições devem conter um certificado de segurança que será fornecido pela Efí dentro da sua conta, no formato PFX(.p12). Essa exigência está descrita na integra no manual de segurança do PIX(https://www.bcb.gov.br/estabilidadefinanceira/comunicacaodados).
+<br />
+Caso ainda não tenha seu certificado, basta seguir o passo a passo do link a seguir para gerar um novo: https://gerencianet.com.br/artigo/como-gerar-o-certificado-para-usar-a-api-pix/</p>
+
+ 
 <p><h2>Instalação do Modulo</h2></p>
 <ol>
  <li>Faça download e descompacte dentro da pasta /modules/gateways/ de seu Whmcs.</li>
