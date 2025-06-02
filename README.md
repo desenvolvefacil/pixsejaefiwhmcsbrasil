@@ -31,6 +31,11 @@ Caso ainda não tenha seu certificado, basta seguir o passo a passo do link a se
  <li><b>Caminho do Certificado de Sandbox (Modo Teste):</b> Caminho fisico para o certificado no servidor. (Ex: /home/sopedir.app/public_html/certificadosejaefi/homologacao-634294-testewhmcs_cert.pem)</li>
 </ol>
 
+
+<p><h2>Enviar QrCode por Email</h2></p>
+<p>Basta colcar o comando abaixo nos modelos de email para que o QrCode Pix seja enviado<br />
+{if $invoice_payment_method=="Pix Seja Efi"}{$invoice_payment_link}{/if}</p>
+
 <p/>
 <h3>Sugestões, Dúvidas?</h3>
 <p>Entrem em contato em: <a href="https://desenvolvefacil.com.br">https://desenvolvefacil.com.br</a></p>
