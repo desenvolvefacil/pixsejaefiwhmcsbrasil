@@ -3,7 +3,7 @@
 <h3>Instruções</h3>
 <p/>
 
-<p><h3>Criação da Conta</h3></p>
+<p><h2>Criação da Conta</h2></p>
 <p><a href="https://sejaefi.com.br/parceiro/desenvolve-facil/">Abrir Conta no SejaEfi</a></p>
  
 <p><b>Não utilizar caracteres especiais no prefixo, utilizem apenas letras.</b></p>
