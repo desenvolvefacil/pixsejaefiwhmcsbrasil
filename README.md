@@ -1,7 +1,7 @@
 <h1>Modulo Gratuito PIX Seja Efi WHMCS Brasil</h1>
 
 <p><h2>Criação da Conta</h2></p>
-<p>Abrir Conta no Banco SejaEfi href="https://sejaefi.com.br/parceiro/desenvolve-facil/</p>
+<p>Abrir Conta no Banco SejaEfi https://sejaefi.com.br/parceiro/desenvolve-facil/</p>
 
 <p><h2>Certificado para utilização da API PIX</h2></p>
 <p>Todas as requisições devem conter um certificado de segurança que será fornecido pela Efí dentro da sua conta, no formato PFX(.p12). Essa exigência está descrita na integra no manual de segurança do PIX(https://www.bcb.gov.br/estabilidadefinanceira/comunicacaodados).
