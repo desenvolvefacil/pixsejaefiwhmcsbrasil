@@ -18,20 +18,18 @@ Caso ainda não tenha seu certificado, basta seguir o passo a passo do link a se
  <li>Entre em: Portais de Pagamento e ative o modulo <b>Sejaefipixdfx</b>.</li>
 </ol>
 
+<p><h2>Configuração do Modulo</h2></p>
+<ol>
+ <li><b>Em Produção:</b> Define se irá realizar cobranças reais (*em modo teste faturas de 1.00 a 9.00 tem retorno automatico)</li>
+ <li><b>Chave Pix:</b> Coloque sua Chave Pix CPF/CNPJ | Telefone | Email | Chave Aleátoria(*recomendada)</li>
+ <li><b>Client_Id Produção:</b> Deve ser preenchido com o client_id de produção de sua conta Efí. Este campo é obrigatório e pode ser encontrado no menu "API" -> "Aplicações"</li>
+ <li><b>Client_Secret Produção:</b> Deve ser preenchido com o client_secret de produção de sua conta Efí. Este campo é obrigatório e pode ser encontrado no menu "API" -> "Aplicações"</li>
+ <li><b>Caminho do Certificado de Produção:</b> Caminho fisico para o certificado no servidor. (Ex: /home/sopedir.app/public_html/certificadosejaefi/producao-634294-testewhmcs_cert.pem)</li>
 
-
-
-<p><b>Não utilizar caracteres especiais no prefixo, utilizem apenas letras.</b></p>
-<p/>
-<p>Faça download e descompacte dentro da pasta /modules/gateways/ de seu Whmcs.</p>
-<p>Entre em: Portais de Pagamento e ative o modulo <b>Sejaefipixdfx</b>.</p>
-<p>Entre com sua Chave Pix, Seu Nome e sua Cidade.</p>
-<p>Caso utilize o Pix em outros sites e sistemas configure um código de prefixo para diferenciar as transações recebidas.</p>
-<p>Para enviar Código PIX por email basta colar o código abaixo no modelo de email</p>
-<p/>
-<p>{if $invoice_payment_method=="Pix Seja Efi"}{$invoice_payment_link}{/if}</p>
-<p/>
-<p/>
+ <li><b>Client_Id Sandbox (Modo Teste):</b> Deve ser preenchido com o client_id de produção de sua conta Efí. Este campo é obrigatório e pode ser encontrado no menu "API" -> "Aplicações"</li>
+ <li><b>Client_Secret Sandbox (Modo Teste):</b> Deve ser preenchido com o client_secret de produção de sua conta Efí. Este campo é obrigatório e pode ser encontrado no menu "API" -> "Aplicações"</li>
+ <li><b>Caminho do Certificado de Sandbox (Modo Teste):</b> Caminho fisico para o certificado no servidor. (Ex: /home/sopedir.app/public_html/certificadosejaefi/homologacao-634294-testewhmcs_cert.pem)</li>
+</ol>
 
 <p/>
 <h3>Sugestões, Dúvidas?</h3>
