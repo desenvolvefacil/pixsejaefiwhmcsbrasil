@@ -4,9 +4,10 @@
 <p><a href="https://sejaefi.com.br/parceiro/desenvolve-facil/">Abrir Conta no SejaEfi</a></p>
 
 <p><h2>Instalação do Modulo</h2></p>
-<ul>
- <li>aaa</li>
-</ul>
+<ol>
+ <li>Faça download e descompacte dentro da pasta /modules/gateways/ de seu Whmcs.</li>
+ <li>Entre em: Portais de Pagamento e ative o modulo <b>Sejaefipixdfx</b>.</li>
+</ol>
 
 <p><b>Não utilizar caracteres especiais no prefixo, utilizem apenas letras.</b></p>
 <p/>
