@@ -4,7 +4,7 @@
 <p/>
 
 <p><h3>Criação da Conta</h3></p>
-<p><a hret="https://sejaefi.com.br/parceiro/desenvolve-facil/">Abrir Conta no SejaEfi</a></p>
+<p><a href="https://sejaefi.com.br/parceiro/desenvolve-facil/">Abrir Conta no SejaEfi</a></p>
  
 <p><b>Não utilizar caracteres especiais no prefixo, utilizem apenas letras.</b></p>
 <p/>
