@@ -1,19 +1,25 @@
 <h1>Modulo Gratuito PIX Seja Efi WHMCS Brasil</h1>
 
 <p><h2>Criação da Conta</h2></p>
-<p><a href="https://sejaefi.com.br/parceiro/desenvolve-facil/">Abrir Conta no SejaEfi</a></p>
+<p>Abrir Conta no Banco SejaEfi href="https://sejaefi.com.br/parceiro/desenvolve-facil/</p>
 
 <p><h2>Certificado para utilização da API PIX</h2></p>
 <p>Todas as requisições devem conter um certificado de segurança que será fornecido pela Efí dentro da sua conta, no formato PFX(.p12). Essa exigência está descrita na integra no manual de segurança do PIX(https://www.bcb.gov.br/estabilidadefinanceira/comunicacaodados).
 <br />
 Caso ainda não tenha seu certificado, basta seguir o passo a passo do link a seguir para gerar um novo: https://gerencianet.com.br/artigo/como-gerar-o-certificado-para-usar-a-api-pix/</p>
 
+<p><h2>Converter Certificado .p12 para .pem </h2></p>
+<p>Para utilizar o modulo o certificado deverá ser convertido para o padrão <b>.pem</b></p>
+<p>https://github.com/efipay/conversor-p12-efi</p>
  
 <p><h2>Instalação do Modulo</h2></p>
 <ol>
  <li>Faça download e descompacte dentro da pasta /modules/gateways/ de seu Whmcs.</li>
  <li>Entre em: Portais de Pagamento e ative o modulo <b>Sejaefipixdfx</b>.</li>
 </ol>
+
+
+
 
 <p><b>Não utilizar caracteres especiais no prefixo, utilizem apenas letras.</b></p>
 <p/>
