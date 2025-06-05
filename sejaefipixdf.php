@@ -290,6 +290,7 @@ function sejaefipixdf_link($params) {
      * 
      * */
         //Busca As configurações atuais para não modificar
+        /*
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
@@ -314,12 +315,14 @@ function sejaefipixdf_link($params) {
         $response = curl_exec($curl);
 
         curl_close($curl);
+        */
 
         $array = json_decode($response, true);
 
         $array["pix"]["receberSemChave"] = true;
         $array["pix"]["chaves"][$chave_pix]["recebimento"]["txidObrigatorio"] = false;
         $array["pix"]["chaves"][$chave_pix]["recebimento"]["qrCodeEstatico"]["recusarTodos"] = false;
+        $array["pix"]["chaves"][$chave_pix]["recebimento"]["documentoPagadorIgualDevedor"] = false;
         $array["pix"]["chaves"][$chave_pix]["recebimento"]["webhook"]["notificacao"]["tarifa"] = true;
 
         $d = json_encode($array);
