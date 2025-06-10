@@ -279,12 +279,7 @@ function sejaefipixdf_link($params) {
     $response = json_decode($response);
 
     $access_token = $response->access_token;
-    
-    
-    
-    
-    
-        
+            
     /**
      * Ativa as configurações de Taxa de Retorno
      * 
@@ -315,9 +310,8 @@ function sejaefipixdf_link($params) {
         $response = curl_exec($curl);
 
         curl_close($curl);
-        */
-
         $array = json_decode($response, true);
+        */
 
         $array["pix"]["receberSemChave"] = true;
         $array["pix"]["chaves"][$chave_pix]["recebimento"]["txidObrigatorio"] = false;
@@ -554,8 +548,10 @@ function sejaefipixdf_link($params) {
             } catch (e) {
                 //alert("Erro");
             }
-
         }
+        setTimeout(function() {
+          location.reload();
+        }, 10000);
     </script>';
     
     $formatter = new NumberFormatter('pt_BR', NumberFormatter::CURRENCY);
