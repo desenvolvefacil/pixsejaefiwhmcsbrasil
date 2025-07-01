@@ -506,18 +506,16 @@ function sejaefipixdf_link($params) {
     $htmlOutput = '<script type="text/javascript">
         function copiarPix() {
 
-            try {
-                link = "' . $CopiaColaPix . '";
+        link = "' . $CopiaColaPix . '";
 
-                navigator.clipboard.writeText(link).then(
-                () => {
-                  alert("Codigo Pix Copiado: " + link);
-                },
-                () => {
-                  /* clipboard write failed */
-                },
-              );
-        }
+        navigator.clipboard.writeText(link).then(
+            () => {
+                alert("Codigo Pix Copiado: " + link);
+            },
+            () => {
+                /* clipboard write failed */
+            },
+        );
         
         setTimeout(function() {
           location.reload();
