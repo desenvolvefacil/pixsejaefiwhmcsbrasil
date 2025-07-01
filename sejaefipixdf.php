@@ -507,34 +507,18 @@ function sejaefipixdf_link($params) {
         function copiarPix() {
 
             try {
-                var aux = document.createElement("input");
-
                 link = "' . $CopiaColaPix . '";
 
-                // Get the text from the element passed into the input
-                aux.setAttribute("value", link);
-
-                // Append the aux input to the body
-                document.body.appendChild(aux);
-
-                // Highlight the content
-                aux.select();
-
-                // Execute the copy command
-                document.execCommand("copy");
-
-                // Remove the input from the body
-                document.body.removeChild(aux);
-
-                //document.getElementById(btId).innerHTML = "Pix Copiado";
-
-                /* Alert the copied text */
-                alert("CÃ³digo Pix Copiado: " + link);
-            } catch (e) {
-                //alert("Erro");
-            }
-
+                navigator.clipboard.writeText(link).then(
+                () => {
+                  alert("Codigo Pix Copiado: " + link);
+                },
+                () => {
+                  /* clipboard write failed */
+                },
+              );
         }
+        
         setTimeout(function() {
           location.reload();
         }, 10000);
