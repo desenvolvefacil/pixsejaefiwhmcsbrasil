@@ -509,7 +509,7 @@ function sejaefipixdf_link($params) {
             try {
                 var aux = document.createElement("input");
 
-                link = "' . $pix . '";
+                link = "' . $CopiaColaPix . '";
 
                 // Get the text from the element passed into the input
                 aux.setAttribute("value", link);
