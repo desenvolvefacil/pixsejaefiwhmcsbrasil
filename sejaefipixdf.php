@@ -228,7 +228,7 @@ function sejaefipixdf_link($params) {
             "client_id" => $client_id,
             "client_secret" => $cliente_secret,
             "sandbox" => $sandbox,
-            "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+            "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
         ];
 
         $autorizacao = base64_encode($config["client_id"] . ":" . $config["client_secret"]);
@@ -250,7 +250,7 @@ function sejaefipixdf_link($params) {
             CURLOPT_HTTPHEADER => array(
                 "Authorization: Basic $autorizacao",
                 "Content-Type: application/json",
-                "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+                "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
             ),
         ));
 
@@ -291,7 +291,7 @@ function sejaefipixdf_link($params) {
           "authorization: Bearer $access_token",
           "Content-Type: application/json",
           "x-skip-mtls-checking: false",
-          "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+          "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
           ),
           ));
 
@@ -327,7 +327,7 @@ function sejaefipixdf_link($params) {
                 "authorization: Bearer $access_token",
                 "Content-Type: application/json",
                 "x-skip-mtls-checking: true",
-                "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+                "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
             ),
         ));
 
@@ -365,7 +365,7 @@ function sejaefipixdf_link($params) {
                 "authorization: Bearer $access_token",
                 "Content-Type: application/json",
                 "x-skip-mtls-checking: true",
-                "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+                "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
             ),
         ));
 
@@ -423,7 +423,7 @@ function sejaefipixdf_link($params) {
             CURLOPT_HTTPHEADER => array(
                 "authorization: Bearer $access_token",
                 "Content-Type: application/json",
-                "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+                "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
             ),
         ));
 
@@ -460,7 +460,7 @@ function sejaefipixdf_link($params) {
                 CURLOPT_HTTPHEADER => array(
                     "authorization: Bearer $access_token",
                     "Content-Type: application/json",
-                    "partner_token" => "861391c071f7d364e2162ed1be5429a8cdc4e39f"
+                    "partner_token: 861391c071f7d364e2162ed1be5429a8cdc4e39f"
                 ),
             ));
 
