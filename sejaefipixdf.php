@@ -251,7 +251,7 @@ function sejaefipixdf_link($params) {
             CURLOPT_HTTPHEADER => array(
                 "Authorization: Basic $autorizacao",
                 "Content-Type: application/json",
-                "partner_token" => $partner_token
+                "partner_token: $partner_token
             ),
         ));
 
@@ -544,4 +544,5 @@ function sejaefipixdf_link($params) {
 
     return $htmlOutput;
 }
+
 
