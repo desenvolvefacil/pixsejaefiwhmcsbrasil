@@ -504,28 +504,8 @@ function sejaefipixdf_link($params) {
     }//fim do entrar == 1
 
 
-    $htmlOutput = '<script type="text/javascript">
-        function copiarPix() {
 
-        link = "' . $CopiaColaPix . '";
-
-        navigator.clipboard.writeText(link).then(
-            () => {
-                alert("Codigo Pix Copiado: " + link);
-            },
-            () => {
-                /* clipboard write failed */
-            },
-        );
-        
-        setTimeout(function() {
-          location.reload();
-        }, 10000);
-    </script>';
-
-    $formatter = new NumberFormatter('pt_BR', NumberFormatter::CURRENCY);
-
-    $htmlOutput = '<script type="text/javascript">
+$htmlOutput = '<script type="text/javascript">
         function copiarPix() {
 
         link = "' . $CopiaColaPix . '";
@@ -561,7 +541,10 @@ function sejaefipixdf_link($params) {
 
 
     return $htmlOutput;
+
+    
 }
+
 
 
 
