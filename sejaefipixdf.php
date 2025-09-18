@@ -328,7 +328,7 @@ function sejaefipixdf_link($params) {
                 "authorization: Bearer $access_token",
                 "Content-Type: application/json",
                 "x-skip-mtls-checking: true",
-                "partner_token" => $partner_token
+                "partner_token: $partner_token"
             ),
         ));
 
@@ -366,7 +366,7 @@ function sejaefipixdf_link($params) {
                 "authorization: Bearer $access_token",
                 "Content-Type: application/json",
                 "x-skip-mtls-checking: true",
-                "partner_token" => $partner_token
+                "partner_token: $partner_token"
             ),
         ));
 
@@ -424,7 +424,7 @@ function sejaefipixdf_link($params) {
             CURLOPT_HTTPHEADER => array(
                 "authorization: Bearer $access_token",
                 "Content-Type: application/json",
-                "partner_token" => $partner_token
+                "partner_token: $partner_token"
             ),
         ));
 
@@ -461,7 +461,7 @@ function sejaefipixdf_link($params) {
                 CURLOPT_HTTPHEADER => array(
                     "authorization: Bearer $access_token",
                     "Content-Type: application/json",
-                    "partner_token" => $partner_token
+                    "partner_token: $partner_token"
                 ),
             ));
 
@@ -544,5 +544,6 @@ function sejaefipixdf_link($params) {
 
     return $htmlOutput;
 }
+
 
 
