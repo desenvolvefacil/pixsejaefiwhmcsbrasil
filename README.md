@@ -1,4 +1,7 @@
 <h1>Modulo Descontinuado<h1>
+Modulo com retorno automatico, reembolso e com QrCode Atualizado em tempo real em:<br />
+https://github.com/desenvolvefacil/dfpixmercadopagowhmcsbrasil
+<hr />
 <h2>Modulo Gratuito PIX Seja Efi WHMCS Brasil</h2>
 
 <p><h2>Criação da Conta</h2></p>
